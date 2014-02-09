@@ -16,12 +16,15 @@ pngdir = "pngdir"
 outdir = "outdir"
 
 files = os.listdir(pngdir)
+files.sort()
 
-chars = list(u"あいうえお")
+# borrow from http://tagnoheya.com/charlist/charlist2.html
+chars = list(u"ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶ")
 
 i = 0
-for png in files:
-	hex = tohex(chars[i])
-	print png + " = " + chars[i] + " = uni" + hex + ".png"
-	os.rename(pngdir + '/' + png, outdir + "/uni" +hex+".png")
+for c in chars:
+	hex = tohex(c)
+	print files[i] + " = " + c + " = uni" + hex + ".png"
+	os.rename(pngdir + '/' + files[i], outdir + "/uni" +hex+".png")
 	i = i+1
+
