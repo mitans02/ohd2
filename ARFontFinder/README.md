@@ -1,5 +1,5 @@
 # ARFontFinder
-The AR application to decode [AR Fonts](../tree/master/fonts).
+The AR application to decode [AR Fonts](https://github.com/mitans02/ohd2/tree/master/fonts).
 
 # Supported Platform
 * Android > 4.0
