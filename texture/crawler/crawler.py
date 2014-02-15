@@ -23,6 +23,6 @@ r = re.compile(r"src=\"(.+/char\/(.+)\/.+?\.png)")
 conn.close()
 
 for mat in r.finditer(html):
-	print 'png/' + mat.group(2).rstrip() + '.png'
-	fetch('png/' + mat.group(2).rstrip() + '.png', mat.group(1))
+	print 'save/' + mat.group(2).rstrip() + '.png'
+	fetch('save/' + mat.group(2).rstrip() + '.png', mat.group(1))
 
