@@ -3,7 +3,12 @@
  All Rights Reserved.
  ==============================================================================*/
 
-package com.qualcomm.vuforia.samples.VuforiaSamples.app.FrameMarkers;
+package info.mtkz.arfontfinder.app.FrameMarkers;
+
+import info.mtkz.arfontfinder.SampleApplication.SampleApplicationSession;
+import info.mtkz.arfontfinder.SampleApplication.utils.CubeShaders;
+import info.mtkz.arfontfinder.SampleApplication.utils.SampleUtils;
+import info.mtkz.arfontfinder.SampleApplication.utils.Texture;
 
 import java.nio.Buffer;
 import java.util.Vector;
@@ -25,10 +30,6 @@ import com.qualcomm.vuforia.Tool;
 import com.qualcomm.vuforia.TrackableResult;
 import com.qualcomm.vuforia.VIDEO_BACKGROUND_REFLECTION;
 import com.qualcomm.vuforia.Vuforia;
-import com.qualcomm.vuforia.samples.SampleApplication.SampleApplicationSession;
-import com.qualcomm.vuforia.samples.SampleApplication.utils.CubeShaders;
-import com.qualcomm.vuforia.samples.SampleApplication.utils.SampleUtils;
-import com.qualcomm.vuforia.samples.SampleApplication.utils.Texture;
 
 
 // The renderer class for the FrameMarkers sample. 

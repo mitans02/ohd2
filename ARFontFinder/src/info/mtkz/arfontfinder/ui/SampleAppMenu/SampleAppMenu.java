@@ -3,7 +3,7 @@
  All Rights Reserved.
  ==============================================================================*/
 
-package com.qualcomm.vuforia.samples.VuforiaSamples.ui.SampleAppMenu;
+package info.mtkz.arfontfinder.ui.SampleAppMenu;
 
 import info.mtkz.arfontfinder.R;
 

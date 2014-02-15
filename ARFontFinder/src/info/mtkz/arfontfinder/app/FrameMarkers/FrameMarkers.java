@@ -3,9 +3,18 @@
  All Rights Reserved.
  ==============================================================================*/
 
-package com.qualcomm.vuforia.samples.VuforiaSamples.app.FrameMarkers;
+package info.mtkz.arfontfinder.app.FrameMarkers;
 
 import info.mtkz.arfontfinder.R;
+import info.mtkz.arfontfinder.SampleApplication.SampleApplicationControl;
+import info.mtkz.arfontfinder.SampleApplication.SampleApplicationException;
+import info.mtkz.arfontfinder.SampleApplication.SampleApplicationSession;
+import info.mtkz.arfontfinder.SampleApplication.utils.LoadingDialogHandler;
+import info.mtkz.arfontfinder.SampleApplication.utils.SampleApplicationGLView;
+import info.mtkz.arfontfinder.SampleApplication.utils.Texture;
+import info.mtkz.arfontfinder.ui.SampleAppMenu.SampleAppMenu;
+import info.mtkz.arfontfinder.ui.SampleAppMenu.SampleAppMenuGroup;
+import info.mtkz.arfontfinder.ui.SampleAppMenu.SampleAppMenuInterface;
 
 import java.util.Vector;
 
@@ -37,15 +46,6 @@ import com.qualcomm.vuforia.Tracker;
 import com.qualcomm.vuforia.TrackerManager;
 import com.qualcomm.vuforia.Vec2F;
 import com.qualcomm.vuforia.Vuforia;
-import com.qualcomm.vuforia.samples.SampleApplication.SampleApplicationControl;
-import com.qualcomm.vuforia.samples.SampleApplication.SampleApplicationException;
-import com.qualcomm.vuforia.samples.SampleApplication.SampleApplicationSession;
-import com.qualcomm.vuforia.samples.SampleApplication.utils.LoadingDialogHandler;
-import com.qualcomm.vuforia.samples.SampleApplication.utils.SampleApplicationGLView;
-import com.qualcomm.vuforia.samples.SampleApplication.utils.Texture;
-import com.qualcomm.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenu;
-import com.qualcomm.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenuGroup;
-import com.qualcomm.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenuInterface;
 
 
 // The main activity for the FrameMarkers sample. 

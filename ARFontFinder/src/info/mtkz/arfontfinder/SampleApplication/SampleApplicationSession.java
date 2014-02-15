@@ -3,7 +3,7 @@
  All Rights Reserved.
  ==============================================================================*/
 
-package com.qualcomm.vuforia.samples.SampleApplication;
+package info.mtkz.arfontfinder.SampleApplication;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;

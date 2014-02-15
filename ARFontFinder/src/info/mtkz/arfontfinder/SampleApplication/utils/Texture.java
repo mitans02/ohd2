@@ -3,7 +3,7 @@
  All Rights Reserved.
  ==============================================================================*/
 
-package com.qualcomm.vuforia.samples.SampleApplication.utils;
+package info.mtkz.arfontfinder.SampleApplication.utils;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

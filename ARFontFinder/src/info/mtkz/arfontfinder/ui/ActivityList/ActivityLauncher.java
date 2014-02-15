@@ -3,7 +3,7 @@
  All Rights Reserved.
  ==============================================================================*/
 
-package com.qualcomm.vuforia.samples.VuforiaSamples.ui.ActivityList;
+package info.mtkz.arfontfinder.ui.ActivityList;
 
 import info.mtkz.arfontfinder.R;
 import android.app.ListActivity;
@@ -84,7 +84,7 @@ public class ActivityLauncher extends ListActivity
                 break;
             case 6:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
-                    "app.FrameMarkers.FrameMarkers");
+                    "info.mtkz.arfontfinder.app.FrameMarkers.FrameMarkers");
                 intent.putExtra("ABOUT_TEXT", "FrameMarkers/FM_about.html");
                 break;
             case 7:

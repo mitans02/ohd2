@@ -3,7 +3,7 @@
  All Rights Reserved.
  ==============================================================================*/
 
-package com.qualcomm.vuforia.samples.SampleApplication;
+package info.mtkz.arfontfinder.SampleApplication;
 
 // Used to send back to the activity any error during vuforia processes
 public class SampleApplicationException extends Exception

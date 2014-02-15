@@ -1,8 +1,8 @@
-package com.qualcomm.vuforia.samples.VuforiaSamples.app.FrameMarkers;
+package info.mtkz.arfontfinder.app.FrameMarkers;
+
+import info.mtkz.arfontfinder.SampleApplication.utils.MeshObject;
 
 import java.nio.Buffer;
-
-import com.qualcomm.vuforia.samples.SampleApplication.utils.MeshObject;
 
 public class KanaObject extends MeshObject {
 

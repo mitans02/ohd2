@@ -3,7 +3,7 @@
  All Rights Reserved.
  ==============================================================================*/
 
-package com.qualcomm.vuforia.samples.VuforiaSamples.ui.ActivityList;
+package info.mtkz.arfontfinder.ui.ActivityList;
 
 import info.mtkz.arfontfinder.R;
 
@@ -50,8 +50,9 @@ public class AboutScreen extends Activity implements OnClickListener
         Bundle extras = getIntent().getExtras();
         String webText = extras.getString("ABOUT_TEXT");
         mClassToLaunchPackage = getPackageName();
-        mClassToLaunch = mClassToLaunchPackage + "."
-            + extras.getString("ACTIVITY_TO_LAUNCH");
+//        mClassToLaunch = mClassToLaunchPackage + "."
+//            + extras.getString("ACTIVITY_TO_LAUNCH");
+        mClassToLaunch = extras.getString("ACTIVITY_TO_LAUNCH");
         
         mAboutWebText = (WebView) findViewById(R.id.about_html_text);
         
