@@ -24,9 +24,15 @@ table, td, tr {
 <table>
 """
 
+i = 0
 for img in files:
 	matches = re.search(r"uni(\w+).png", img)
 	char = unichr(int(matches.group(1), 16)).encode('utf-8')
-	print "<tr><td>%s</td><td><img src='%s/%s' width='50px'></td></tr>" % (char, outdir, img)
+        if ( i % 10 == 0 ):
+             print "<tr>"
+	print "<td>%s</td><td><img src='%s/%s' width='50px'></td>\n" % (char, outdir, img)
+        if ( i % 10 == 9 ):
+             print "</tr>"
+	i = i + 1
 
-print "</table></body></html>"
+print "</tr></table></body></html>"
